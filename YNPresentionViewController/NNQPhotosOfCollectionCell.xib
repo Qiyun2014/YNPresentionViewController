@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10115" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10084"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="jQX-E6-C05">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s9W-7E-kGs">
+                        <rect key="frame" x="5" y="5" width="50" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="s9W-7E-kGs" secondAttribute="height" multiplier="5:8" id="vHA-qb-9L1"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="s9W-7E-kGs" secondAttribute="trailing" constant="5" id="7Wb-RM-lgk"/>
+                <constraint firstItem="s9W-7E-kGs" firstAttribute="top" secondItem="jQX-E6-C05" secondAttribute="top" constant="5" id="BeS-NM-WGy"/>
+                <constraint firstItem="s9W-7E-kGs" firstAttribute="leading" secondItem="jQX-E6-C05" secondAttribute="leading" constant="5" id="RAc-Oc-0xU"/>
+                <constraint firstAttribute="bottom" secondItem="s9W-7E-kGs" secondAttribute="bottom" constant="5" id="RxH-iW-vgz"/>
+            </constraints>
+            <size key="customSize" width="77" height="100"/>
+            <point key="canvasLocation" x="580.5" y="264"/>
+        </collectionViewCell>
+    </objects>
+</document>

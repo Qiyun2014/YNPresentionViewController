@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA64C1501D17C90D003A6057 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA64C14F1D17C90D003A6057 /* main.m */; };
+		FA64C1531D17C90D003A6057 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA64C1521D17C90D003A6057 /* AppDelegate.m */; };
+		FA64C1561D17C90D003A6057 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA64C1551D17C90D003A6057 /* ViewController.m */; };
+		FA64C1591D17C90D003A6057 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA64C1571D17C90D003A6057 /* Main.storyboard */; };
+		FA64C15B1D17C90D003A6057 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA64C15A1D17C90D003A6057 /* Assets.xcassets */; };
+		FA64C15E1D17C90D003A6057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA64C15C1D17C90D003A6057 /* LaunchScreen.storyboard */; };
+		FA64C1691D17C90D003A6057 /* YNPresentionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA64C1681D17C90D003A6057 /* YNPresentionViewControllerTests.m */; };
+		FA64C1741D17C90D003A6057 /* YNPresentionViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA64C1731D17C90D003A6057 /* YNPresentionViewControllerUITests.m */; };
+		FA64C1831D17CE44003A6057 /* GDUViewControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA64C1821D17CE44003A6057 /* GDUViewControllerAnimator.m */; };
+		FA64C1861D17D19F003A6057 /* GDUDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA64C1851D17D19F003A6057 /* GDUDetailViewController.m */; };
+		FA64C1881D17E7CA003A6057 /* NNQPhotosOfCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA64C1871D17E7CA003A6057 /* NNQPhotosOfCollectionCell.xib */; };
+		FA64C18A1D17EA94003A6057 /* photo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA64C1891D17EA94003A6057 /* photo.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA64C1651D17C90D003A6057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA64C1431D17C90C003A6057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA64C14A1D17C90C003A6057;
+			remoteInfo = YNPresentionViewController;
+		};
+		FA64C1701D17C90D003A6057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA64C1431D17C90C003A6057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA64C14A1D17C90C003A6057;
+			remoteInfo = YNPresentionViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA64C14B1D17C90C003A6057 /* YNPresentionViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNPresentionViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA64C14F1D17C90D003A6057 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA64C1511D17C90D003A6057 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA64C1521D17C90D003A6057 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA64C1541D17C90D003A6057 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA64C1551D17C90D003A6057 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA64C1581D17C90D003A6057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA64C15A1D17C90D003A6057 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA64C15D1D17C90D003A6057 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA64C15F1D17C90D003A6057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64C1641D17C90D003A6057 /* YNPresentionViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNPresentionViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA64C1681D17C90D003A6057 /* YNPresentionViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNPresentionViewControllerTests.m; sourceTree = "<group>"; };
+		FA64C16A1D17C90D003A6057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64C16F1D17C90D003A6057 /* YNPresentionViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNPresentionViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA64C1731D17C90D003A6057 /* YNPresentionViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNPresentionViewControllerUITests.m; sourceTree = "<group>"; };
+		FA64C1751D17C90D003A6057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64C1811D17CE44003A6057 /* GDUViewControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUViewControllerAnimator.h; sourceTree = "<group>"; };
+		FA64C1821D17CE44003A6057 /* GDUViewControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUViewControllerAnimator.m; sourceTree = "<group>"; };
+		FA64C1841D17D19F003A6057 /* GDUDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUDetailViewController.h; sourceTree = "<group>"; };
+		FA64C1851D17D19F003A6057 /* GDUDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUDetailViewController.m; sourceTree = "<group>"; };
+		FA64C1871D17E7CA003A6057 /* NNQPhotosOfCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNQPhotosOfCollectionCell.xib; sourceTree = "<group>"; };
+		FA64C1891D17EA94003A6057 /* photo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA64C1481D17C90C003A6057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64C1611D17C90D003A6057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64C16C1D17C90D003A6057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA64C1421D17C90C003A6057 = {
+			isa = PBXGroup;
+			children = (
+				FA64C14D1D17C90D003A6057 /* YNPresentionViewController */,
+				FA64C1671D17C90D003A6057 /* YNPresentionViewControllerTests */,
+				FA64C1721D17C90D003A6057 /* YNPresentionViewControllerUITests */,
+				FA64C14C1D17C90C003A6057 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA64C14C1D17C90C003A6057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA64C14B1D17C90C003A6057 /* YNPresentionViewController.app */,
+				FA64C1641D17C90D003A6057 /* YNPresentionViewControllerTests.xctest */,
+				FA64C16F1D17C90D003A6057 /* YNPresentionViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA64C14D1D17C90D003A6057 /* YNPresentionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA64C1891D17EA94003A6057 /* photo.jpeg */,
+				FA64C1511D17C90D003A6057 /* AppDelegate.h */,
+				FA64C1521D17C90D003A6057 /* AppDelegate.m */,
+				FA64C1541D17C90D003A6057 /* ViewController.h */,
+				FA64C1551D17C90D003A6057 /* ViewController.m */,
+				FA64C1871D17E7CA003A6057 /* NNQPhotosOfCollectionCell.xib */,
+				FA64C1841D17D19F003A6057 /* GDUDetailViewController.h */,
+				FA64C1851D17D19F003A6057 /* GDUDetailViewController.m */,
+				FA64C1811D17CE44003A6057 /* GDUViewControllerAnimator.h */,
+				FA64C1821D17CE44003A6057 /* GDUViewControllerAnimator.m */,
+				FA64C1571D17C90D003A6057 /* Main.storyboard */,
+				FA64C15A1D17C90D003A6057 /* Assets.xcassets */,
+				FA64C15C1D17C90D003A6057 /* LaunchScreen.storyboard */,
+				FA64C15F1D17C90D003A6057 /* Info.plist */,
+				FA64C14E1D17C90D003A6057 /* Supporting Files */,
+			);
+			path = YNPresentionViewController;
+			sourceTree = "<group>";
+		};
+		FA64C14E1D17C90D003A6057 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA64C14F1D17C90D003A6057 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA64C1671D17C90D003A6057 /* YNPresentionViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA64C1681D17C90D003A6057 /* YNPresentionViewControllerTests.m */,
+				FA64C16A1D17C90D003A6057 /* Info.plist */,
+			);
+			path = YNPresentionViewControllerTests;
+			sourceTree = "<group>";
+		};
+		FA64C1721D17C90D003A6057 /* YNPresentionViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA64C1731D17C90D003A6057 /* YNPresentionViewControllerUITests.m */,
+				FA64C1751D17C90D003A6057 /* Info.plist */,
+			);
+			path = YNPresentionViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA64C14A1D17C90C003A6057 /* YNPresentionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA64C1781D17C90D003A6057 /* Build configuration list for PBXNativeTarget "YNPresentionViewController" */;
+			buildPhases = (
+				FA64C1471D17C90C003A6057 /* Sources */,
+				FA64C1481D17C90C003A6057 /* Frameworks */,
+				FA64C1491D17C90C003A6057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YNPresentionViewController;
+			productName = YNPresentionViewController;
+			productReference = FA64C14B1D17C90C003A6057 /* YNPresentionViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA64C1631D17C90D003A6057 /* YNPresentionViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA64C17B1D17C90D003A6057 /* Build configuration list for PBXNativeTarget "YNPresentionViewControllerTests" */;
+			buildPhases = (
+				FA64C1601D17C90D003A6057 /* Sources */,
+				FA64C1611D17C90D003A6057 /* Frameworks */,
+				FA64C1621D17C90D003A6057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA64C1661D17C90D003A6057 /* PBXTargetDependency */,
+			);
+			name = YNPresentionViewControllerTests;
+			productName = YNPresentionViewControllerTests;
+			productReference = FA64C1641D17C90D003A6057 /* YNPresentionViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA64C16E1D17C90D003A6057 /* YNPresentionViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA64C17E1D17C90D003A6057 /* Build configuration list for PBXNativeTarget "YNPresentionViewControllerUITests" */;
+			buildPhases = (
+				FA64C16B1D17C90D003A6057 /* Sources */,
+				FA64C16C1D17C90D003A6057 /* Frameworks */,
+				FA64C16D1D17C90D003A6057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA64C1711D17C90D003A6057 /* PBXTargetDependency */,
+			);
+			name = YNPresentionViewControllerUITests;
+			productName = YNPresentionViewControllerUITests;
+			productReference = FA64C16F1D17C90D003A6057 /* YNPresentionViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA64C1431D17C90C003A6057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qiyun;
+				TargetAttributes = {
+					FA64C14A1D17C90C003A6057 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FA64C1631D17C90D003A6057 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FA64C14A1D17C90C003A6057;
+					};
+					FA64C16E1D17C90D003A6057 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FA64C14A1D17C90C003A6057;
+					};
+				};
+			};
+			buildConfigurationList = FA64C1461D17C90C003A6057 /* Build configuration list for PBXProject "YNPresentionViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA64C1421D17C90C003A6057;
+			productRefGroup = FA64C14C1D17C90C003A6057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA64C14A1D17C90C003A6057 /* YNPresentionViewController */,
+				FA64C1631D17C90D003A6057 /* YNPresentionViewControllerTests */,
+				FA64C16E1D17C90D003A6057 /* YNPresentionViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA64C1491D17C90C003A6057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA64C18A1D17EA94003A6057 /* photo.jpeg in Resources */,
+				FA64C15E1D17C90D003A6057 /* LaunchScreen.storyboard in Resources */,
+				FA64C1881D17E7CA003A6057 /* NNQPhotosOfCollectionCell.xib in Resources */,
+				FA64C15B1D17C90D003A6057 /* Assets.xcassets in Resources */,
+				FA64C1591D17C90D003A6057 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64C1621D17C90D003A6057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64C16D1D17C90D003A6057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA64C1471D17C90C003A6057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA64C1831D17CE44003A6057 /* GDUViewControllerAnimator.m in Sources */,
+				FA64C1861D17D19F003A6057 /* GDUDetailViewController.m in Sources */,
+				FA64C1561D17C90D003A6057 /* ViewController.m in Sources */,
+				FA64C1531D17C90D003A6057 /* AppDelegate.m in Sources */,
+				FA64C1501D17C90D003A6057 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64C1601D17C90D003A6057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA64C1691D17C90D003A6057 /* YNPresentionViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA64C16B1D17C90D003A6057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA64C1741D17C90D003A6057 /* YNPresentionViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA64C1661D17C90D003A6057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA64C14A1D17C90C003A6057 /* YNPresentionViewController */;
+			targetProxy = FA64C1651D17C90D003A6057 /* PBXContainerItemProxy */;
+		};
+		FA64C1711D17C90D003A6057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA64C14A1D17C90C003A6057 /* YNPresentionViewController */;
+			targetProxy = FA64C1701D17C90D003A6057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA64C1571D17C90D003A6057 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA64C1581D17C90D003A6057 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA64C15C1D17C90D003A6057 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA64C15D1D17C90D003A6057 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA64C1761D17C90D003A6057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA64C1771D17C90D003A6057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA64C1791D17C90D003A6057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YNPresentionViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiyun.YNPresentionViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA64C17A1D17C90D003A6057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YNPresentionViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiyun.YNPresentionViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA64C17C1D17C90D003A6057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YNPresentionViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiyun.YNPresentionViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNPresentionViewController.app/YNPresentionViewController";
+			};
+			name = Debug;
+		};
+		FA64C17D1D17C90D003A6057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YNPresentionViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiyun.YNPresentionViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNPresentionViewController.app/YNPresentionViewController";
+			};
+			name = Release;
+		};
+		FA64C17F1D17C90D003A6057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YNPresentionViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiyun.YNPresentionViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YNPresentionViewController;
+			};
+			name = Debug;
+		};
+		FA64C1801D17C90D003A6057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YNPresentionViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiyun.YNPresentionViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YNPresentionViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA64C1461D17C90C003A6057 /* Build configuration list for PBXProject "YNPresentionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA64C1761D17C90D003A6057 /* Debug */,
+				FA64C1771D17C90D003A6057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA64C1781D17C90D003A6057 /* Build configuration list for PBXNativeTarget "YNPresentionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA64C1791D17C90D003A6057 /* Debug */,
+				FA64C17A1D17C90D003A6057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA64C17B1D17C90D003A6057 /* Build configuration list for PBXNativeTarget "YNPresentionViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA64C17C1D17C90D003A6057 /* Debug */,
+				FA64C17D1D17C90D003A6057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA64C17E1D17C90D003A6057 /* Build configuration list for PBXNativeTarget "YNPresentionViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA64C17F1D17C90D003A6057 /* Debug */,
+				FA64C1801D17C90D003A6057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA64C1431D17C90C003A6057 /* Project object */;
+}
